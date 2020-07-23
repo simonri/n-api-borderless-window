@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.14.1",
+    "node-addon-api": "^3.0.0",
+    "win32-api": "^9.5.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.0.0"
+  },
+  "gypfile": true
+}
